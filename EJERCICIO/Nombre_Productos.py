@@ -1,10 +1,10 @@
-print("Registro de productos y análisis básico".upper())
+# print("Registro de productos y análisis básico".upper())
 
-# creo las dos listas inicales 
-productos = [input("Ingresa la primera fruta: ").capitalize(), input("Ingresa la segunda fruta: ").capitalize(), input("Ingresa la tercera fruta: ").capitalize(), input("Ingresa la última fruta: ").capitalize()]
-print(f"Dada la lista {productos} se haran los procedimientos.")
-precios = [int(input("Ingresa el primer precio: ")), int(input("Ingresa el segundo precio: ")), int(input("Ingrese el último precio: "))]
-print(f"Dado la lista con los precios {precios} se harán los procedimientos.")
+# # creo las dos listas inicales 
+# productos = [input("Ingresa la primera fruta: ").capitalize(), input("Ingresa la segunda fruta: ").capitalize(), input("Ingresa la tercera fruta: ").capitalize(), input("Ingresa la última fruta: ").capitalize()]
+# print(f"Dada la lista {productos} se haran los procedimientos.")
+# precios = [int(input("Ingresa el primer precio: ")), int(input("Ingresa el segundo precio: ")), int(input("Ingrese el último precio: "))]
+# print(f"Dado la lista con los precios {precios} se harán los procedimientos.")
 
 # # Paso 1: si "pera" está en productos agrego Mango
 # print("\nPaso N°1")
@@ -81,9 +81,38 @@ print(f"Dado la lista con los precios {precios} se harán los procedimientos.")
 # else:
 #     print("Descuento no está en la lista oferta")
 
-# Paso 10: si Descuento está en la lista pferta creo un diccionario con claves
+# # Paso 11: si el diccionario informe existe añado la clave vigencia con el valor 30 días
+# print("\nPaso N°11")
+# if informe:
+#     informe["Vigencia"] = "30 dias"
+#     print(f"tu diccionario informe tiene ahora la clave vigencia: {informe}")
+# else:
+#     print("El diccionario no existe")
 
+# # Paso 12: si hay mas de tres elementos en precios elimino el último
+# print("\nPaso N°12")
+# if len(precios) >3:
+#     precios.pop()
+#     print(f"En tu lista de precios habían mas de tres elementos, por lo cuál se eliminó el último. Tu lista actualizada es: {precios}")
+# else:
+#     print("Tu lista de precios no tiene mas de 3 elementos")
     
+# # Paso 13: si Piña no está en productos la agrego
+# print("\nPaso N°13")
+# if "Piña" not in productos:
+#     productos.append("Piña")
+#     print(f"Piña no estába en la lista productos, por lo cuál se agregó. Tu lista actualizada es: {productos}")
+# else:
+#     print("Piña ya está en productos")
+    
+# # Paso 14: mostrar las listas
+# print("\nPaso N°14") 
+# print(f"Tu lista final actualizada es: {productos}")
+# print(f"Tu lista final actualizada es: {precios}")
+# print(f"Tu lista final actualizada es: {oferta}")
+# print(f"Tu lista final actualizada es: {altos_precios}")
+# print(f"Tu diccionario final actualizado es: {informe}")
+# print(f"Tu tupla final actualizada es: {tupla1}")
 
 
 
