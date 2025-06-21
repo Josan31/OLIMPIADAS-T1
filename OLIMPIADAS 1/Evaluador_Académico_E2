@@ -1,6 +1,15 @@
 print("Evaluador académico".upper())
 
+# pedir al usuario el promedio
 promedio = float(input("Ingresa tu promedio general: "))
 
-materias_perdidas = int(input("Ingresa el número de materias perdidas: "))
+# Pedir al usuario cuantas materias perdidas lleva
+m_perdidas = int(input("Ingresa el número de materias perdidas: "))
+
+if promedio >= 4.5 and m_perdidas == 0:
+    print("Tu resultado es excelente")
+elif promedio >= 3.0 and m_perdidas <= 2:
+    print("Tu resultado es aceptable")
+else:
+    print("Tienes un bajo rendimiento")
 

@@ -1,6 +1,5 @@
-print("Determina si una fecha es palíndroma".upper())
+print("Determinar si una fecha es palíndroma".upper())
 
-#
 dia = int(input("Ingrese el dia (1-31)"))
 mes = int(input("Ingrese el mes (1-12)"))
 año = int(input("Ingrese el año (por ejemplo 2020)"))
