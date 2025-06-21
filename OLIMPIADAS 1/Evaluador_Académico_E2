@@ -1,0 +1,6 @@
+print("Evaluador académico".upper())
+
+promedio = float(input("Ingresa tu promedio general: "))
+
+materias_perdidas = int(input("Ingresa el número de materias perdidas: "))
+
